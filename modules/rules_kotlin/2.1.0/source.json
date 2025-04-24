@@ -1,0 +1,10 @@
+{
+    "url": "https://github.com/bazelbuild/rules_kotlin/archive/refs/tags/v2.1.0.tar.gz",
+    "integrity": "sha256-FSp/Qb6BvuUZN8qndfQQAKYda/wOUzDHN7020s1w2q4=",
+    "strip_prefix": "rules_kotlin-2.1.0",
+    "patches": {
+        "jacoco.patch": "sha256-9QkxlIdOqab0ggLGNEV8DLK0CT0K15piP4joew6edxk=",
+        "module_bazel.patch": "sha256-YOigHX2gT6GoA3B/Bs65lWe6K+VAf5v8yboVEiWMQLo="
+    },
+    "patch_strip": 1
+}

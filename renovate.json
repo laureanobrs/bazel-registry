@@ -4,5 +4,10 @@
     "config:recommended",
     "helpers:pinGitHubActionDigests"
   ],
-  "assignees": ["laureanobrs"]    
+  "assignees": ["laureanobrs"],
+  "packageRules": [
+    {
+      "matchManagers": ["github-actions"],
+      "groupName": "GitHub Actions"
+    }
 }

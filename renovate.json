@@ -3,9 +3,9 @@
   "extends": [
     "config:recommended",
     "helpers:pinGitHubActionDigests",
+    "abandonments:recommended"
   ],
   "dependencyDashboard": true,
-  "abandonments:recommended",
   "assignees": ["laureanobrs"],
   "packageRules": [
     {

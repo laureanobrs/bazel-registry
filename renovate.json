@@ -5,7 +5,6 @@
     "helpers:pinGitHubActionDigests",
     "abandonments:recommended"
   ],
-  "dependencyDashboard": true,
   "assignees": ["laureanobrs"],
   "packageRules": [
     {

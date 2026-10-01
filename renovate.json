@@ -11,6 +11,10 @@
       "groupName": "GitHub Actions",
       "matchManagers": ["github-actions"],
       "recreateWhen": "never"
-    }
+    },
+    {
+      "matchDatasources": ["maven"],
+      "enabled": false
+    }    
   ]
 }

@@ -1,0 +1,14 @@
+name: Print PR author
+
+on:
+  pull_request:
+    types: [opened]
+
+jobs:
+  print-author:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Print PR author
+        run: >
+          echo "PR author: ${{ github.event.pull_request.user.login }}"
